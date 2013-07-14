@@ -20,7 +20,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Explorer
 PRODUCT_VERSION_DEVICE_SPECIFIC := -UNOFFICIAL-BUILD-2
-PRODUCT_PACKAGES:= camera
+
 # Product name
 PRODUCT_NAME := ev_pico
 PRODUCT_BRAND := htc_europe
