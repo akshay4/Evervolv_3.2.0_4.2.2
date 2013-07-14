@@ -1,7 +1,7 @@
-CM10.1 device tree for HTC Explorer
+Evervovl 3.2.0p1 4.2.2 device tree for HTC Explorer
 ===================================
 
-Cyanogenmod Device trees for HTC Explorer A310e
+Evervolv 3.2 Device trees for HTC Explorer A310e
 
 Hardware Specs
 ==============
