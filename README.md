@@ -1,4 +1,4 @@
-Evervovl 3.2.0p1 4.2.2 device tree for HTC Explorer
+Evervolv 3.2.0p1 4.2.2 device tree for HTC Explorer
 ===================================
 
 Evervolv 3.2 Device trees for HTC Explorer A310e
