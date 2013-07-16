@@ -56,12 +56,13 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.default \
-    camera \
+    camera\
     libsurfaceflinger_client
     
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
+    libnetcmdiface \
     dexpreopt
 
 # Hardware properties 

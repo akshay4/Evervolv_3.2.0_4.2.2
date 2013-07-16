@@ -40,4 +40,29 @@
     <bool name="config_show_expandedDesktop">true</bool>
 </add-resource>
 
+<!-- Boolean indicating if current platform supports quick switch-on/off of Bluetooth Module -->
+<add-resource type="bool" name="config_bluetooth_adapter_quick_switch">
+    <bool name="config_bluetooth_adapter_quick_switch">false</bool>
+</add-resource>
+
+<!-- Hardware 'face' keys present on the device, stored as a bit field.
+         This integer should equal the sum of the corresponding value for each
+         of the following keys present:
+             1 - Home
+             2 - Back
+             4 - Menu
+             8 - Assistant (search)
+            16 - App switch
+         For example, a device with Home, Back and Menu keys would set this
+         config to 7. -->
+<add-resource type="integer" name="config_deviceHardwareKeys">
+    <integer name="config_deviceHardwareKeys">15</integer>
+</add-resource>
+
+    <!-- Volume Rocker Wake Support. Some devices do not support (PMU) this.
+         Setting to false will disable Volume Rocker Wake support -->
+<add-resource type="bool" name="config_show_volumeRockerWake">
+    <bool name="config_show_volumeRockerWake">true</bool>
+</add-resource>
+
 </resources>
