@@ -28,6 +28,7 @@ TARGET_USE_KRAIT_BIONIC_OPTIMIZATION := true
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_ARCH_VARIANT_CPU := cortex-a5
+TARGET_ARCH_VARIANT_FPU := neon 
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
@@ -35,6 +36,7 @@ ARCH_ARM_HIGH_OPTIMIZATION := true
 ARCH_ARM_HAVE_NEON := true
 TARGET_BOOTLOADER_BOARD_NAME := pico
 TARGET_CORTEX_CACHE_LINE_32 := true
+ARCH_ARM_HAVE_ARMV7A := true
 
 # Target information
 TARGET_NO_BOOTLOADER := true
@@ -59,7 +61,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/htc/pico
 TARGET_KERNEL_CONFIG := pico_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := home/akshay/android/evervolv/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
 
 # Vold
 BOARD_VOLD_MAX_PARTITIONS := 24

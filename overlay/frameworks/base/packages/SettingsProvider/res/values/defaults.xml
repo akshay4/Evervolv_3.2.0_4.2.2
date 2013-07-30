@@ -29,7 +29,7 @@
     <bool name="def_notifications_use_ring_volume">false</bool>
     <integer name="def_wifi_sleep_policy">2</integer>
 
- <!-- Timeout in MS for how long you have to long-press the back key to
+<!-- Timeout in MS for how long you have to long-press the back key to
          kill the foreground app. -->
 <add-resource type="integer" name="config_backKillTimeout">
    <integer name="config_backKillTimeout">1200</integer>

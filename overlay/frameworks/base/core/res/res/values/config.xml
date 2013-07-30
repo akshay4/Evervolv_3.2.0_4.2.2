@@ -150,7 +150,7 @@
     <!-- Display low battery warning when battery level dips to this value -1 -->
     <integer name="config_lowBatteryWarningLevel">16</integer>
 
-     <!-- List of regexpressions describing the interface (if any) that represent tetherable
+    <!-- List of regexpressions describing the interface (if any) that represent tetherable
          USB interfaces.  If the device doesn't want to support tething over USB this should
          be empty.  An example would be "usb.*" -->
     <string-array translatable="false" name="config_tether_usb_regexs">
@@ -197,8 +197,7 @@
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
     <bool name="config_animateScreenLights">false</bool>
 
-    
     <!-- Boolean indicating whether Softap requires reloading AP firmware -->
     <bool name="config_wifiApFirmwareReload">false</bool>
-    
+
   </resources>
