@@ -1,7 +1,7 @@
 Evervolv 3.2.0p1 4.2.2 device tree for HTC Explorer
-
+==================================
 Get the Source: repo init -u git://github.com/Evervolv/android.git -b jellybean
-===================================
+=======================================
 
 Evervolv 4.2.2 Device trees for HTC Explorer A310e
 
